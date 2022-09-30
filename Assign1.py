@@ -1,6 +1,7 @@
-year = int(input("Please enter the year that you want to calculate the personal interest rate for:"))
-CategoriesNum = int(input("Please enter the number of expenditure categories: "))
+year = int(input("Please enter the year that you want to calculate the personal interest rate for:"))       #Getting Year info from the user
+CategoriesNum = int(input("Please enter the number of expenditure categories: "))                           #Getting Category number from the user
 
+#Category number has to be at least 1.
 if CategoriesNum > 0:
 
     PreYear_list = []
